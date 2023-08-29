@@ -16,3 +16,27 @@ P.special {
         font-family: verdana;
         font-size: 20px;
       }
+
+      .header {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        display: flex;;
+       justify-content: space-between;
+       align-items: center;
+       background-color: #FFDBAC;
+       height: 60px; 
+       }
+       
+       .header .logo {
+         max-width: 60px;
+       }
+       
+       .header .name {
+         font-size: 25px;
+         font-family: "Poppins" , sans-serif;
+         color: #000;
+         text-decoration: none;
+         margin-left: 10px;
+       }
